@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 /* dark color scheme  */
 body.dark-theme {
   --first-color-second: hsl(var(--hue-color), 30%, 8%);
