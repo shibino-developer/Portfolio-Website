@@ -11,3 +11,23 @@ card{
     transform: scale(1.12);
     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
+
+.btn-change{
+  border-radius: 4px;
+  height: 30px;
+  width: 120px;
+  background: rgb(2, 19, 36);
+  margin: 20px;
+  float: center;
+  box-shadow: 0 0 1px #1d0404;
+  transition: all 0.5s ease-in-out;
+  border: 4px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Arial'; 
+  font-size: 10px;
+}
+.btn-change:hover{
+  transform: scale(1.5);
+  background: rgb(2, 19, 36);
+}
