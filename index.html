@@ -1,1076 +1,259 @@
 <!DOCTYPE html>
-<html lang="en" style="scroll-behavior: smooth;">
+<html lang="en" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shibino P Abraham</title>
-    <link rel="icon" type="image/x-icon" href="https://media.licdn.com/dms/image/D5603AQHz04klLikvNA/profile-displayphoto-shrink_200_200/0/1695816939867?e=1703721600&v=beta&t=sgKyMGBu1hYFq1zqZF7o_cIZS5IPIqHXN6zwggwtmnM">
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="Libraries/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/cards.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Leven - Resume / CV / vCard Template" />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" />
+    <meta name="author" content="John" />
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <script src="js/modernizr.custom.js"></script>
   </head>
 
-    <body>
-      <header style="position: fixed; width: 100%; z-index: 1;">
-        <div class="row text-white">
-            <div class="col-xs-6 col-sm-11 my-auto text-white">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
+  <body class="page">
 
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link text-white" href="#home-section"><b>Home</b><span class="sr-only">(current)</span></a>
-                        </li>
+    <div class="lm-animated-bg"></div>
     
-                        <li class="nav-item active">
-                          <a class="nav-link text-white" href="#about-section"><b>About</b><span class="sr-only">(current)</span></a>
-                        </li>
-    
-    
-                        <li class="nav-item ">
-                          <a class="nav-link text-white" href="#skills-section"><b>Skills</b></a>
-                        </li>
-                        <li class="nav-item ">
-                          <a class="nav-link text-white" href="#expertise-section"><b>Expertise</b></a>
-                        </li>   
-                        
-                        
-                       <li class="nav-item">
-                          <a class="nav-link text-white" href="#projects-section"><b>Projects</b></a>
-                      </li>  
-     
-    
-                        <li class="nav-item">
-                            <a class="nav-link text-white" href="#contact-section"><b>Contact</b></a>
-                        </li> 
-    
-                        
-                      </ul> 
-                    </div>
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
+        </div>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <!-- Scroll To Top Button -->
+    <div class="lmpixels-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
+    <!-- /Scroll To Top Button -->
+
+    <div class="page-scroll">
+      <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
+
+        <!-- Header -->
+        <header id="site_header" class="header">
+          <div class="header-content clearfix">
                 
-                  </nav>
+            <!-- Text Logo -->
+            <div class="text-logo">
+              <a href="index.html">
+                <div class="logo-symbol">S</div>
+                <div class="logo-text">Shibino <span>Abraham</span></div>
+              </a>
             </div>
-        </div>         
-    </header>
-    
-    <!-- Home section -->
-    <section id="home-section" data-target ="#home-section" class="bg-dark p-5" style="padding-top: 7em; background-blend-mode: overlay; background-image: url(https://www.bhmpics.com/downloads/website-backgrounds-Wallpapers/7.empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-copy-space-studio-room.jpg); max-width: 100%; background-size: cover;">
-      <div class="container">
-          <div class="row align-items-center">
-              <div class="col-md-4 pt-5">
-                  <img src="https://storage.prompt-hunt.workers.dev/clf9emhen0001k1085rly0ill_1"
-                  alt="" class="img-fluid rounded-circle">
-              </div>
-              <div class="col-md-4 pt-5 text-white">
-                <p>Hi, I am</p>
-                <h1 class="text-white"><b>Shibino Abraham</b></h1>
-                <p class="text-secondary">Software Developer</p><br>
-                <div class="col-md-2 pt-2">
-                  <a href="#contact-section" class="btn-change btn btn-outline-secondary btn-small">Hey, Let's Connect!</a>
-                </div>
-              </div> 
-          </div>
-      </div>
-  </section>
+            <!-- /Text Logo -->
 
-<!-- About section -->
-<section id="about-section" class="bg-dark p-5" style="padding-top: 7em; background-blend-mode: multiply; background-image: url(https://www.bhmpics.com/downloads/website-backgrounds-Wallpapers/7.empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-copy-space-studio-room.jpg); max-width: 100%; background-size: cover;">
-  
-  <div class="container">
-    <div class="row align-items-center">
-      <div class="col-md-4 pt-5">
-          <img src="https://png.pngtree.com/background/20230525/original/pngtree-female-programmer-in-front-of-computer-screens-picture-image_2734159.jpg" class="about-img img-fluid rounded-corners" alt="..">
+            <!-- Navigation -->
+            <div class="site-nav mobile-menu-hide">
+              <ul class="leven-classic-menu site-main-menu">
+                <li class="menu-item menu-item-has-children current-menu-item">
+                  <a href="index.html">About Me</a>
+                  <!-- <ul class="sub-menu">
+                    <li class="menu-item current-menu-item">
+                      <a href="index.html">About Me 1</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="index-2.html">About Me 2</a>
+                    </li>
+                  </ul> -->
+                </li>
+
+                <li class="menu-item">
+                  <a href="resume.html">Resume</a>
+                </li>
+
+                <li class="menu-item menu-item-has-children">
+                  <a href="portfolio.html">Portfolio</a>
+                  <!-- <ul class="sub-menu">
+                    <li class="menu-item">
+                      <a href="portfolio-2-columns.html">Portfolio 2 Columns</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="portfolio.html">Portfolio 3 Columns</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="portfolio-4-columns.html">Portfolio 4 Columns</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="portfolio-5-columns.html">Portfolio 5 Columns</a>
+                    </li>
+                  </ul> -->
+                </li>
+                
+                <li class="menu-item menu-item-has-children">
+                  <a href="blog.html">Blog</a>
+                  <!-- <ul class="sub-menu">
+                    <li class="menu-item">
+                      <a href="blog.html">Blog 2 Columns</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="blog-3-columns.html">Blog 3 Columns</a>
+                    </li>
+                  </ul> -->
+                </li>
+
+                <li class="menu-item">
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
             </div>
-            
-            <div class="col-md-8">
-              <h6 class="text-center text-white"><b>About Me</b></h6>
-              <span class="section-subtitle text-secondary" style="font-size: small;">My Introduction</span>
-              <p class="text-white">Hello, I'm Shibino Abraham, a passionate Python Developer with a flair for crafting robust and efficient software solutions. Armed with a solid foundation in Python programming and a keen eye for clean code, I specialize in web development using frameworks like Django and Flask. My commitment to continuous learning and problem-solving, coupled with a collaborative spirit, drives my pursuit of excellence in the dynamic world of Python development. Welcome to my portfolio, where I showcase my journey in creating innovative and impactful solutions.</p>
-                <a href="Resume\Shibino_Abraham_Resume.pdf" type="button" class="btn-resume btn btn-outline-light">Resume</button></a>
-                <!-- <a href="Resume\Shibino_Abraham_CV.pdf" type="button" class="btn-cv btn btn-outline-light">CV</button></a> -->
-            </div>
-    </div>
-  </div>
-</section>
-  
-<!-- Skills section -->
-<section id="skills-section" class="bg-dark p-5" style="padding-top: 7em; background-blend-mode: multiply; background-image: url(https://www.bhmpics.com/downloads/website-backgrounds-Wallpapers/7.empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-copy-space-studio-room.jpg); max-width: 100%; background-size: cover;">
-  
-  <div class="container">
-    <h4 class="text-center text-white">Skills</h4>
-    <span class="section-subtitle text-secondary" style="font-size: small;">My Technical Skills</span>
-    <div class="row pt-3">
 
-      <div class="col-md-12">
-        <div class="skills-content container">
-          <button class="btn btn-outline-light">Python</button>
-          <button class="btn btn-outline-light">Flask</button>
-          <button class="btn btn-outline-light">Django</button>
-          <button class="btn btn-outline-light">HTML5</button>
-          <button class="btn btn-outline-light">CSS3</button>
-
-          <button class="btn btn-outline-light">JavaScript</button>
-          <button class="btn btn-outline-light">React JS</button>
-          <button class="btn btn-outline-light">JQuery</button>
-          <button class="btn btn-outline-light">Bootstrap</button>
-          <button class="btn btn-outline-light">OOPS Concepts</button>
-          <button class="btn btn-outline-light">SQLAlchemy</button>
-        
-          <button class="btn btn-outline-light">MySQL</button>
-          
-        
-        </div>
-      </div>
-    </div>
-      <div class="row pt-3">
-
-        <div class="col-md-12">
-          <div class="skills-content container">
-            <button class="btn btn-outline-light">RDBMS</button>
-            <button class="btn btn-outline-light">SQLite</button>
-            <button class="btn btn-outline-light">Git</button>
-            <button class="btn btn-outline-light">REST API</button>
-            <button class="btn btn-outline-light">Figma</button>
-          
-
-            <button class="btn btn-outline-light">Web Development</button>
-            <button class="btn btn-outline-light">Automation</button>
-            <button class="btn btn-outline-light">Debugging and troubleshooting</button>
-            <button class="btn btn-outline-light">Unit Testing(pytest)</button>
-           
-            
-
+            <a class="menu-toggle mobile-visible">
+              <i class="fa fa-bars"></i>
+            </a>
           </div>
-        </div>
-        </div>
+        </header>
 
-      <div class="row pt-3">
-
-        <div class="col-md-12">
-          <div class="skills-content container">
-            <button class="btn btn-outline-light">Agile Methodology</button>
-            <button class="btn btn-outline-light">Collaboration and Teamwork</button>
-            <button class="btn btn-outline-light">Time Management</button>
-            <button class="btn btn-outline-light">Communication skills</button>
-            <button class="btn btn-outline-light">Self Motivated</button>
-            <button class="btn btn-outline-light">Positive Attitude</button>
-            
-          
-          </div>
-        </div>
-      </div>
-      <div class="row pt-3">
-        <div class="col-md-12">
-          <div class="skills-content container">
-            <button class="btn btn-outline-light">Continuous Learning</button>
-            <button class="btn btn-outline-light">Adaptibility</button>
-            <button class="btn btn-outline-light">Tech blogging</button>
-          </div>
-        </div>
-      </div>
-</section>
-
-<!-- Qualifications section -->
-<section id="qualifications-section" class="bg-dark p-5" style="padding-top: 7em; background-blend-mode: multiply; background-image: url(https://www.bhmpics.com/downloads/website-backgrounds-Wallpapers/7.empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-copy-space-studio-room.jpg); max-width: 100%; background-size: cover;">
- 
-  <div class="container">
-    <h4 class="text-center text-white">Qualifications</h4>
-    <span class="section-subtitle text-secondary" style="font-size: small;">My journey</span>
-    <div class="row justify-content-md-center">
-
-      <div class="col-md-6">
-        <div class="qualification-container container">
-
-            <div class="container">
-              <!-- timeline item 1 -->
-              <div class="row no-gutters">
-                <div class="col-sm"> <!--spacer--> </div>
-                <!-- timeline item 1 center dot -->
-                <div class="col-sm-12 text-center flex-column d-none d-sm-flex">
-                  <div class="row">
-                    <div class="col">&nbsp;</div>
-                    <div class="col">&nbsp;</div>
-                  </div>
-                  <h5 class="m-2">
-                    <span class="badge badge-pill bg-light border">&nbsp;</span>
-                  </h5>
-                  <div class="row">
-                    <div class="col border-right">&nbsp;</div>
-                    <div class="col">&nbsp;</div>
-                  </div>
-                </div>
-              <!--/row-->
-              <!-- timeline item 2 -->
-              <div class="col-sm py-12">
-                <div class="card text-center text-white bg-dark">
-                  <div class="card-body">
-                    <div class="float-right text-muted small">2021</div>
-                    <h4 class="card-title">Python Full Stack Web Development</h4>
-                    <p><i><b>QIS Academy</b></i></p>                   
-                  </div>
-                </div>
-              </div>
-            </div>
-              <!--/row-->
-              <!-- timeline item 3 -->
-              <div class="row no-gutters">
-                <div class="col-sm"> <!--spacer--> </div>
-                <div class="col-sm-12 text-center flex-column d-none d-sm-flex">
-                  <div class="row h-50">
-                    <div class="col border-right">&nbsp;</div>
-                    <div class="col">&nbsp;</div>
-                  </div>
-                  <h5 class="m-2">
-                    <span class="badge badge-pill bg-light border">&nbsp;</span>
-                  </h5>
-                  <div class="row h-50">
-                    <div class="col border-right">&nbsp;</div>
-                    <div class="col">&nbsp;</div>
-                  </div>
-                </div>
-                <div class="col-sm">
-                  <div class="card text-center text-white bg-dark">
-                    <div class="card-body">
-                      <div class="float-right text-muted small">2020</div>
-                      <h4 class="card-title">Bachelor of Technology in Computer Science and Engineering</h4>
-                      <p><i><b>A P J Abdul Kalam Technological University</b></i></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!--/row-->
-              <!-- timeline item 3 -->
-              <div class="row no-gutters">
-                <div class="col-sm"> <!--spacer--> </div>
-                <div class="col-sm-12 text-center flex-column d-none d-sm-flex">
-                  <div class="row h-50">
-                    <div class="col border-right">&nbsp;</div>
-                    <div class="col">&nbsp;</div>
-                  </div>
-                  <h5 class="m-2">
-                    <span class="badge badge-pill bg-light border">&nbsp;</span>
-                  </h5>
-                  <div class="row h-50">
-                    <div class="col border-right">&nbsp;</div>
-                    <div class="col">&nbsp;</div>
-                  </div>
-                </div>
-                <div class="col-sm">
-                  <div class="card text-center text-white bg-dark">
-                    <div class="card-body">
-                      <div class="float-right text-muted small">2016</div>
-                      <h4 class="card-title">HSE</h4>
-                      <p><i><b>Government of Kerala</b></i></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!--/row-->
-              <!-- timeline item 4 -->
-              <div class="row no-gutters">
-                <div class="col-sm"> <!--spacer--> </div>
-                <div class="col-sm-12 text-center flex-column d-none d-sm-flex">
-                  <div class="row h-50">
-                    <div class="col border-right">&nbsp;</div>
-                    <div class="col">&nbsp;</div>
-                  </div>
-                  <h5 class="m-2">
-                    <span class="badge badge-pill bg-light border">&nbsp;</span>
-                  </h5>
-                  <div class="row h-50">
-                    <div class="col border-right">&nbsp;</div>
-                    <div class="col">&nbsp;</div>
-                  </div>
-                </div>
-                <div class="col-sm">
-                  <div class="card text-center text-white bg-dark">
-                    <div class="card-body">
-                      <div class="float-right text-muted small">2014</div>
-                      <h4 class="card-title">SSLC</h4>
-                      <p><i><b>Government of Kerala</b></i></p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-<!--container-->
-    </div>
-  </div>
-</section>
-
-<!-- Expertise Section -->
-<section id="expertise-section" class="bg-dark p-5" style="padding-top: 7em; background-blend-mode: multiply; background-image: url(https://www.bhmpics.com/downloads/website-backgrounds-Wallpapers/7.empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-copy-space-studio-room.jpg); max-width: 100%; background-size: cover;">
-        
-        <div class="container">
-            <h4 class="text-center text-white">Expertise</h4>
-            <span class="section-subtitle text-secondary" style="font-size: small;">What I offer</span>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-                    <!-- <img src="task.jpeg" style="width: 50%" class="card-img-t" alt="..">-->
-                    <div class="card-header">Web Application Development</div>
-                        <div class="card-body"> 
-                          <p class="card-text">Design and develop custom web applications tailored to meet specific client needs.
-                          Utilize Python frameworks such as Django and Flask for robust back-end functionality.</div>
-                  </div>
-              </div>
-    
-              <div class="col-md-4">
-                <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-                    <!-- <img src="task.jpeg" style="width: 50%" class="card-img-t" alt="..">-->
-                    <div class="card-header">API Development</div>
-                        <div class="card-body"> 
-                          <p class="card-text">Create RESTful APIs to enable seamless communication between different software applications.
-                          Ensure API security, documentation, and optimal performance.</div>
-                  </div>
-              </div>
-    
-    
-              <div class="col-md-4">
-                <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-                    <!-- <img src="task.jpeg" style="width: 50%" class="card-img-t" alt="..">-->
-                    <div class="card-header">Database Design and Management</div>
-                        <div class="card-body"> 
-                          <p class="card-text">Design and implement efficient database structures using SQL databases (e.g., SQLite, MySQL, PostgreSQL).
-                            Optimize database performance for scalability and reliability.</div>
-                  </div>
-              </div>
-              </div>
-    
-                <div class="row pt-3" >
-    
-                  <div class="col-md-4">
-                    <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-                        <!-- <img src="task.jpeg" style="width: 50%" class="card-img-t" alt="..">-->
-                        <div class="card-header">Front-End Development</div>
-                            <div class="card-body"> 
-                              <p class="card-text">Develop responsive and user-friendly interfaces using HTML, CSS, and JavaScript.
-                            Ensure a seamless integration between front-end and back-end components.</div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-                        <!-- <img src="task.jpeg" style="width: 50%" class="card-img-t" alt="..">-->
-                        <div class="card-header">Automation Scripts</div>
-                            <div class="card-body"> 
-                              <p class="card-text">Develop automation scripts to streamline repetitive tasks and enhance workflow efficiency.
-                              Improve operational processes through the automation of routine maintenance tasks.</div>
-                      </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-                        <!-- <img src="task.jpeg" style="width: 50%" class="card-img-t" alt="..">-->
-                        <div class="card-header">Data Analysis and Visualization</div>
-                            <div class="card-body"> 
-                              <p class="card-text">Leverage Python libraries such as Pandas, NumPy, and Matplotlib for data analysis and visualization.
-                                Provide insights through visual representations of complex datasets.</div>
-                      </div>
-                  </div>
-              </div>  
-              <div class="row">
-                <div class="col-md-4">
-                  <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-                      <!-- <img src="task.jpeg" style="width: 50%" class="card-img-t" alt="..">-->
-                      <div class="card-header">Code Review and Optimization</div>
-                          <div class="card-body"> 
-                            <p class="card-text">Conduct thorough code reviews to identify areas for improvement in terms of efficiency, readability, and maintainability.
-                              Optimize existing codebases for enhanced performance.</div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-                      <!-- <img src="task.jpeg" style="width: 50%" class="card-img-t" alt="..">-->
-                      <div class="card-header">Deployment and Server Management</div>
-                          <div class="card-body"> 
-                            <p class="card-text">Ensure smooth deployment of applications on servers, including configurations and optimizations.
-                              Manage server environments, ensuring security and reliability.</div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-                      <!-- <img src="task.jpeg" style="width: 50%" class="card-img-t" alt="..">-->
-                      <div class="card-header">Continuous Support and Maintenance</div>
-                          <div class="card-body"> 
-                            <p class="card-text">Offer ongoing support and maintenance services to ensure the longevity and reliability of deployed applications.
-                              Implement updates, security patches, and bug fixes.</div>
-                    </div>
-                </div>
-              </div>
-          </div>
-            
-        </div>
-    </section>
-
-<!-- Experiences section -->
-<section id="experiences-section" class="bg-dark p-5" style="padding-top: 7em; background-blend-mode: multiply; background-image: url(https://www.bhmpics.com/downloads/website-backgrounds-Wallpapers/7.empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-copy-space-studio-room.jpg); max-width: 100%; background-size: cover;">
- 
-  <div class="container">
-    <h4 class="text-center text-white">Experiences</h4>
-    <div class="row pt-5">
-      <div class="col-md-6">
-          <div class="card text-white bg-dark mb-3">
-            <div class="card-header">Designation: Software Engineer Trainee</div>
-              <div class="card-body">
-                <div class="float-right text-muted small">Ernakulam, Kerala, India</div>
-                    <h5 class="card-title">Quest Innovative Solutions</h5>
-                    <p class="card-text">
-                      <ul>
-                        <li>Developed a web application using Python - Django framework which includes full stack web development.</li>
-                        <li>Designed front end, troubleshooting, and participated in the documentation of projects.</li>
-                        <li>Implemented various algorithmic solutions to improve data processing performance, resulting in a 10% improvement in system throughput.</li>
-                        <li>Performed a series of unit tests on the existing application, increasing test coverage by 80%.</li>
-                        <li>Programmed REST API endpoints using SQL & Python, ensuring compliance with security standards and scalability requirements.</li>
-                      </ul>
-                      </p>
-              
-                <div class="col-md-12">
-                    <button type="button" class="btn btn-outline-light">HTML</button>
-                    <button type="button" class="btn btn-outline-light">CSS</button>
-                    <button type="button" class="btn btn-outline-light">JavaScript</button>
-                    <button type="button" class="btn btn-outline-light">JQuery</button>
-                    <button type="button" class="btn btn-outline-light">AJAX</button>
-                  
-                    <div class="row pt-2">
-                      <div class="col-md-12">
-                        <button type="button" class="btn btn-outline-light">Bootstrap</button>
-                        <button type="button" class="btn btn-outline-light">SQLite</button>
-                        <button type="button" class="btn btn-outline-light">Python</button>
-                        <button type="button" class="btn btn-outline-light">Django</button>
-                        <button type="button" class="btn btn-outline-light">Web Scraping</button></div>
-                  </div>
-                  </div>
-                <div class="float-right text-muted small pt-2"><i>September 2020 - March 2021 </i></div>
-                           
-                         
+        <div id="main" class="site-main">
+          <div id="main-content" class="single-page-content">
+            <div id="primary" class="content-area">    
+              <div id="content" class="page-content site-content single-post" role="main">
+                <div class="row">
+                  <div class=" col-xs-12 col-sm-12">
+                    <div class="home-content">
+                      <div class="row flex-v-align">
                         
-                      </div>
-                  </div>
-          </div>
-
-
-          <div class="col-md-6">
-            <div class="card text-white bg-dark mb-3">
-              <div class="card-header">Designation: Intern</div>
-                <div class="card-body">
-                  <div class="float-right text-muted small">Kanjikuzhy, Kottayam, Kerala</div>
-                      <h5 class="card-title">Keltron Knowledge Centre </h5>
-                      <p class="card-text">
-                        <ul>
-                          <li>GRC, Identify & Access Management.</li>
-                          <li>Network Security, Application Security, ISMS Documents.</li>
-                          <li>ERAMBA & Wireshark Software.</li>
-                        </ul>
-                        </p>
-                  
-                  <div class="float-right text-muted small"><i>07 June 2017 - 13 June 2017 </i></div>
-                    </div>
-                    </div>
-            </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<!-- Projects Section -->
-<section id="projects-section" class="bg-dark p-5" style="padding-top: 7em; background-blend-mode: multiply; background-image: url(https://www.bhmpics.com/downloads/website-backgrounds-Wallpapers/7.empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-copy-space-studio-room.jpg); max-width: 100%; background-size: cover;">
- 
-      <div class="container">
-        <h4 class="text-center text-white">Projects</h4>
-        <span class="section-subtitle text-secondary" style="font-size: small;">Most recent work</span>
-
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-                <!-- <img src="task.jpeg" style="width: 50%" class="card-img-t" alt="..">-->
-                <div class="card-header">Technologies Used: Python, Flask, SQLAlchemy</div>
-                    <div class="card-body"> 
-                      <h5 class="card-title">Employee Task Tracking and Rating System</h5>
-                      <p class="card-text"> <ul>
-                        <li>Implemented a web application using the Python Flask framework for tracking employee tasks and a rating system.</li>
-                        <li>This innovative system empowers organizations to streamline and enhance their performance evaluation process.</li>
-                        <li>Leveraging the flexibility and scalability of Flask, the application offers a user-friendly interface for both employees and managers.</li>
-                      </ul></p>
-                      <a href="employee.html" type="button" class="btn btn-outline-light">View More</button></a>
-                      <a href="Code explained.pdf" class="btn btn-outline-light">Read More</a>
-                      </div>
-              </div>
-          </div>
-    
-          <div class="col-md-4">
-              <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-                  <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWK2_F1yVEgL6C-8IytXbdjEQ35s7_4gFw3E12ByEeEbI_ded3cfQy5ce6Z4n85f0Mprg&usqp=CAU" class="card-img-top" alt="..">-->
-                  <div class="card-header">Technologies Used: Python, Tkinter, SQLite</div>
-                    <div class="card-body"> 
-                          <h5 class="card-title">Stock Management and Billing System</h5>
-                          <p class="card-text"><ul>
-                            <li>Developed a database-driven warehouse management system in Python that will store the information in the MySQL database.</li>
-                            <li>This application offers a user-friendly interface for businesses to efficiently manage their inventory, generate accurate bills, and streamline the overall retail process.</li>
-                          </ul></p>
-                          <a href="stock.html" type="button" class="btn btn-outline-light">View More</button></a>
-                          
-                        <a href="https://github.com/shibino-developer/Software-Development" class="btn btn-outline-light">Github Link</a>
+                        <div class="col-sm-12 col-md-5 col-lg-5">
+                          <div class="home-photo">
+                            <div class="hp-inner" style="background-image: url(https://storage.prompt-hunt.workers.dev/clf9emhen0001k1085rly0ill_1);">
+                            </div>
                           </div>
-                </div>
-            </div>
-
-            <div class="col-md-4">
-              <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-                  <!-- <img src="https://e7.pngegg.com/pngimages/698/938/png-clipart-computer-monitor-tablet-computers-illustration-responsive-web-design-web-development-digital-marketing-computer-icons-web-development-computer-network-web-design.png" class="card-img-top" alt=".."-->
-                  <div class="card-header">Technologies Used: Python, Flask, SQAlchemy</div>
-                  <div class="card-body">
-                        <h5 class="card-title">Online Marketing web application</h5>
-                        <p class="card-text"><ul>
-                          <li>Developed an online marketing application using Python-Flask which handles buying and selling products with a user login interface.</li>
-                          <li>This dynamic application is designed to elevate the online marketing experience, providing businesses with powerful tools to enhance their digital presence and engage with their audience effectively.</li>
-                        </ul></p>
-
-                        <a href="marketing.html" type="button" class="btn btn-outline-light">View More</button></a>
-                        
-                        <a href="https://github.com/shibino-developer/Online-marketing/tree/master" class="btn btn-outline-light">Github Link</a>
                         </div>
-                </div>
-              </div>
-            </div>
 
-            <div class="row pt-3">
-              <div class="col-md-4">
-                <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-                  <!-- <img src="" class="card-img-top rounded" style="width: 50%" alt=".."> -->
-                  <div class="card-header">Technologies Used: Python, Django, SQLite</div>
-                      <div class="card-body">
-                        <h5 class="card-title">College Management System</h5>
-                        <p class="card-text"> <ul>
-                          <li>Developed a web application using Python-Django which handles details of students and staffs in a college with a user login portal.</li>
-                        </ul></p>
-                        <a href="cms.html" type="button" class="btn btn-outline-light">View More</button></a>
+                        <div class="col-sm-12 col-md-7 col-lg-7">
+                          <div class="home-text hp-left">
+                            <div class="owl-carousel text-rotation">                                    
+                              <div class="item">
+                                <h4>Python Full Stack Developer</h4>
+                              </div>
 
-                        <a href="https://github.com/shibino-developer/cms" class="btn btn-outline-light">Github Link</a>
+                              <div class="item">
+                                <h4>Web Designer</h4>
+                              </div>
+                            </div>
+                              
+                            <h1>Shibino Abraham</h1>
+                            <p>Hello, I'm Shibino Abraham, a passionate Python Developer with a flair for crafting robust and efficient software solutions. Armed with a solid foundation in Python programming and a keen eye for clean code, I specialize in web development using frameworks like Django and Flask. My commitment to continuous learning and problem-solving, coupled with a collaborative spirit, drives my pursuit of excellence in the dynamic world of Python development. Welcome to my portfolio, where I showcase my journey in creating innovative and impactful solutions.</p>     
+                            <div class="home-buttons">
+                              <a href="Shibino_Abraham_Resume.pdf" target="_blank" class="btn btn-primary">Download Resume</a>
+                              <!-- <a href="#" target="_self" class="btn btn-secondary">Contact</a> -->
+                            </div>
+                          </div>
                         </div>
-                </div>
-                
-              </div>
-            </div>
-        
-    </section>
-
-
-<!-- Publications section -->
-<section id="publications-section" class="bg-dark p-5" style="padding-top: 7em; background-blend-mode: multiply; background-image: url(https://www.bhmpics.com/downloads/website-backgrounds-Wallpapers/7.empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-copy-space-studio-room.jpg); max-width: 100%; background-size: cover;">
- 
-    <div class="container">
-      <h4 class="text-center text-white">Publications</h4>
-      <div class="row pt-5">
-  
-        <div class="col-md-12">
-          <div class="card text-white bg-dark mb-3" style="max-width: 80rem;">
-            <div class="card-header">International Journal of Computer Sciences and Engineering</div>
-                <div class="card-body">
-                      <h5 class="card-title">An Autonomous Agricultural Robot Using IoT</h5>
-                      <p class="card-text"> <ul>
-                        <li>Thrilled to share my groundbreaking project – an IoT Autonomous Agricultural Robot, a cutting-edge innovation that merges Internet of Things (IoT) technology with autonomous robotics to revolutionize the agricultural landscape.</li>
-                        <li>This project, which has been published by the International Journal of Computer Science and Engineering (IJCSE), represents a significant stride toward sustainable and efficient farming practices.</li>
-                        <li>Designed an Agricultural Robot that can be controlled through IoT providing real-time monitoring of the field thereby improving the irrigation system.</li>
-                        <li>The Agribot can monitor, measure the soil parameters, and control the irrigation system providing the optimum conditions for the growth of crops.</li>
-                      </ul></p>
-                        <div class="float-right text-muted small"><i>Volume 8, Issue 7, July 2020 </i></div>
-                        <a href="iot.html" class="btn btn-outline-light">View More</a>
-                
-                        <a href="https://www.ijcseonline.org/pdf_paper_view.php?paper_id=5165&9-IJCSE-08250-36.pdf" class="btn btn-outline-light">Read More</a>
-                        
                       </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="certifications-section" class="bg-dark p-5" style="padding-top: 7em; background-blend-mode: multiply; background-image: url(https://www.bhmpics.com/downloads/website-backgrounds-Wallpapers/7.empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-copy-space-studio-room.jpg); max-width: 100%; background-size: cover;">
- 
-  <div class="container">
-    <h4 class="text-center text-white">Certifications</h4>
-    <span class="section-subtitle text-secondary" style="font-size: small;">I gained</span>
-
-    <div class="row">
-      <div class="col-md-4">
-        <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
-          
-          <div class="card-header">Career Essentials in Software Development by Microsoft and LinkedIn</div>
-          
-          
-
-               <div class="card-body">
-                <p class="card-text">Programming, Software Development.</p>
-                  
-                    <a href="https://www.linkedin.com/learning/certificates/f45c4ce63ea54c5cbdce95b932a0ac8fced4262b3a072b265a52b33fe1ae9f6b" class="btn btn-outline-light">Certification</a>
-                    <!-- <a href="https://www.credly.com/earner/earned/badge/59b18534-2b5d-4f43-8404-1155359a8cad" class="btn btn-outline-light">Badge</a> -->
-                    <div class="row pt-3 float-right text-muted small">Microsoft</div>
-                </div>
-                      
-            </div>
-      </div>
-    
-   
-      <div class="col-md-4">
-        <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
-          
-          <div class="card-header">Containers & Kubernetes Essentials</div>
-          
-          
-
-               <div class="card-body">
-                <p class="card-text">Cloud, Container, IBM Cloud, Kubernetes.</p>
-                  
-                    <a href="https://courses.cognitiveclass.ai/certificates/3e325064297444a48e26fbdf8d19b7d9" class="btn btn-outline-light">Certification</a>
-                    <a href="https://www.credly.com/badges/59b18534-2b5d-4f43-8404-1155359a8cad/linked_in?t=s5lpwp" class="btn btn-outline-light">Badge</a>
-                    <div class="row pt-3 float-right text-muted small">IBM Developer Skills Network</div>
-                </div>
-                      
-            </div>
-      </div>
-    
-   
-      <div class="col-md-4">
-        <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
-          
-          <div class="card-header">Docker Essentials</div>
-          
-          
-
-               <div class="card-body">
-                <p class="card-text">Cloud, Containers, Docker.</p>
-                  
-                    <a href="https://courses.cognitiveclass.ai/certificates/884bd5082eae4794899985fe9abe3614" class="btn btn-outline-light">Certification</a>
-                    <a href="https://www.credly.com/badges/487a5b54-1d89-43d3-82e1-2bcee8d09626/linked_in?t=s5lgu5" class="btn btn-outline-light">Badge</a>
-                    <div class="row pt-3 float-right text-muted small">IBM Developer Skills Network</div>
-                </div>
-                      
-            </div>
-      </div>
-    </div>
-    <div class="row">
-
-      <div class="col-md-4">
-        <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
-          
-          <div class="card-header">Data Analysis Using Python</div>
-          
-          
-
-               <div class="card-body">
-                <p class="card-text">Data Wrangling, Exploratory Data Analysis, Model Development, Model Evaluation.</p>
-                  
-                    <a href="https://courses.cognitiveclass.ai/certificates/e392857f77b8446092da3d3633691f0f" class="btn btn-outline-light">Certification</a>
-                    <a href="https://www.credly.com/badges/40226b4b-10c1-4d40-9705-c9bd81e77029/linked_in?t=s1l50b" class="btn btn-outline-light">Badge</a>
-                    <div class="row pt-3 float-right text-muted small">IBM Developer Skills Network</div>
-                </div>
-                      
-            </div>
-            
-      </div>
-        <div class="col-md-4">
-            <div class="card text-white bg-dark mb-3" style="max-width: 20rem;">
-              <div class="card-header">Python101 for Data Science</div>
-              
-            <div class="card-body">
-              <p class="card-text">Python Basics, Data Structures, Working with Data, Numpy Arrays & APIs.</p>
-                 
-                    <a href="https://courses.cognitiveclass.ai/certificates/42df9080df8445199cb6d8bc400a3674" class="btn btn-outline-light">Certification</a>
-                    <a href="https://images.credly.com/size/340x340/images/84ac9eff-b8a2-4683-846b-f59887a73801/Python_101_Data_Science.png" class="btn btn-outline-light">Badge</a>
-                    <div class="row pt-3 float-right text-muted small">IBM Developer Skills Network</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 ">
-          <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-            <div class="card-header">Data Visualization Using Python</div>
-            
-            <div class="card-body">
-              <p class="card-text">Visualization Tools - Basic, Specialized, Advanced.</p>
-                 
-                    <a href="https://courses.cognitiveclass.ai/certificates/56e0c7fb927845a5a01084faf6863a97" class="btn btn-outline-light">Certification</a>
-                    <a href="https://www.credly.com/badges/0e4390fc-9613-4c4f-9707-5121ef761517/linked_in?t=s1n6kg" class="btn btn-outline-light">Badge</a>
-                    
-                    <div class="row pt-3 float-right text-muted small">IBM Developer Skills Network</div>
-            </div>
-          </div>
-        </div>
-    </div>
-
-    <div class="row pt-3">
-        <div class="col-md-4">
-          <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-            <div class="card-header">Machine Learning with Python</div>
-            
-            <div class="card-body">
-                    
-              <p class="card-text">Machine Learning, Regression, Clustering.</p>
-                 
-                    <a href="https://courses.cognitiveclass.ai/certificates/79e125b2b86f493aa70a06c629cfae0f" class="btn btn-outline-light">Certification</a>
-                    <a href="https://www.credly.com/badges/f118a96b-9101-4954-85b7-12ae500c27af/linked_in?t=s1p2xj" class="btn btn-outline-light">Badge</a>
-                    <div class="row pt-3 float-right text-muted small">IBM Developer Skills Network</div>
-            </div>
-          </div>     
-        </div>
-      
-        <div class="col-md-4">
-          <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-            <div class="card-header">Build Your Own Chatbot</div>
-            <div class="card-body">
-              <p class="card-text">Chatbots, Working with Intents, Entities, Defining the Dialog, Deploying Chatbot.</p>
-                  
-                    <a href="https://courses.cognitiveclass.ai/certificates/e19ecfc3cf2a44e48e8dceec0808bc74" class="btn btn-outline-light">Certification</a>
-                    <a href="https://www.credly.com/badges/cbda5f1a-6c3b-4493-bd82-24c3cb83cbc7" class="btn btn-outline-light">Badge</a>
-                    <div class="row pt-3 float-right text-muted small">IBM Developer Skills Network</div>
-            </div>
-          </div>     
-        </div>
-
-
-        <div class="col-md-4">
-          <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-            <div class="card-header">Web Design from scratch : HTML, CSS, JS, JQuery, Bootstrap.</div>
-            <div class="card-body">
-              
-            <p class="card-text">HTML, CSS, JS, JQuery, Bootstrap</p>
-                 
-                    <a href="https://www.udemy.com/certificate/UC-0bd3c027-b634-4cae-8ca7-6861eead1906/" class="btn btn-outline-light">Certification</a>
-                    <div class="row pt-3 float-right text-muted small">Udemy</div>
-            </div>
-          </div>     
-        </div>
-      </div>
-
-      <div class="row pt-5">
-        <div class="col-md-4">
-          <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-            <div class="card-header">The Data Science Course 2022: Complete Data Science Bootcamp</div>
-            
-            <div class="card-body">
-              <p class="card-text">Data Science, Probability, Statistics, Python, Deep Learning.</p>
-                 
-                    <a href="https://www.udemy.com/certificate/UC-4764422f-dc24-4ae2-86ef-730400a01145/" class="btn btn-outline-light">Certification</a>
-                    <div class="row pt-3 float-right text-muted small">Udemy</div>
-            </div>
-          </div>     
-        </div>
-
-        <div class="col-md-4">
-          <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-            <div class="card-header">Python for Data Science</div>
-            
-           
-            <div class="card-body">
-              <p class="card-text">Operators, Flow Control, Data Types, Tuples and Dictionaries, Loops, Functions.</p>
-                 
-                    <a href="https://www.udemy.com/certificate/UC-a24ee7b2-2cf1-4961-b797-4ae416861d47/" class="btn btn-outline-light">Certification</a>
-                    <div class="row pt-3 float-right text-muted small">Udemy</div>
-            </div>
-          </div>     
-        </div>
-
-        <div class="col-md-4">
-          <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-            <div class="card-header">React - The Complete Guide(incl Hooks, React Router, Redux)</div>
-            
-           
-            <div class="card-body">
-              <p class="card-text">React, JavaScript Refresher, React Essentials- (Components, JSX, Props, State), Styling, Debugging, Side Effects, Use Effects, Deploying React Apps.</p>
-                 
-                    <a href="https://www.udemy.com/certificate/UC-e1076e4b-4c72-4834-8b10-6efe967f8e23/" class="btn btn-outline-light">Certification</a>
-                    <div class="row pt-3 float-right text-muted small">Udemy</div>
-            </div>
-          </div>     
-        </div>
-      </div>
-
-      <div class="row pt-5">
-        <div class="col-md-4">
-          <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-            <div class="card-header">REST APIs with Flask and Python</div>
-            
-            
-            <div class="card-body">
-              <p class="card-text">Introduction to JSON, Docker, Storing Data in SQLAlchemy, Database Migrations.</p>
-                 
-                    <a href="https://www.udemy.com/certificate/UC-d96809dc-cc8d-4c9c-906e-0b875a073ca4/" class="btn btn-outline-light">Certification</a>
-                    <div class="row pt-3 float-right text-muted small">Udemy</div>
-            </div>
-          </div>     
-        </div>
-
-        <div class="col-md-4">
-          <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-            <div class="card-header">Complete Python Developer in 2022 : Zero to Mastery</div>
-            <div class="card-body">
-              <p class="card-text">Python- (Introduction, Basic, Advanced), Modules, OOPS, Regular Expressions, Testing, Scripting, Web Scraping, Automation.</p>
-                 
-                    <a href="https://udemy-certificate.s3.amazonaws.com/image/UC-f67693c3-fc60-4a5f-80fb-f779c03c2261.jpg" class="btn btn-outline-light">Certification</a>
-                    <div class="row pt-3 float-right text-muted small">Udemy</div>
-            </div>
-          </div>     
-        </div>
-
-        <div class="col-md-4">
-          <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-            <div class="card-header">Python Full Stack developer</div>
-            
-            
-            <div class="card-body">
-              <p class="card-text">Python- (Introduction, Basic, Advanced), Modules, OOPS, Regular Expressions, Sending Emails, Django Framework, Deployment.</p>
-                 
-                    <a href="Python Training Certificate.pdf" class="btn btn-outline-light">View More</a>
-                    <div class="row pt-3 float-right text-muted small">QIS Academy</div>
-            </div>
-          </div>     
-        </div>
-      </div>
-
-      <div class="row pt-3">
-        <div class="col-md-4">
-          <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-            <div class="card-header">Android App Development & Arduino Programming with AWS</div>
-            
-            <div class="card-body">
-              
-              <a href="Logix space.jpeg" class="btn btn-outline-light">View More</a>
-              <div class="row pt-3 float-right text-muted small">Logix Space</div>     
-            </div>
-          </div>     
-        </div>
-
-        <div class="col-md-4">
-          <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-            <div class="card-header">IJCSE Journal Publication Certificate</div>
-            
-            <div class="card-body">
-                <a href="Journal.jpeg" class="btn btn-outline-light">View More</a>
-                <div class="row pt-3 float-right text-muted small">IJCSE</div>  
-              </div>
-          </div>     
-        </div>
-    </div>
-
-</section>
-
-
-<!-- Blogs section -->
-<section id="blogs-section" class="bg-dark p-5" style="padding-top: 7em; background-blend-mode: multiply; background-image: url(https://www.bhmpics.com/downloads/website-backgrounds-Wallpapers/7.empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-copy-space-studio-room.jpg); max-width: 100%; background-size: cover;">
-
-  <div class="container">
-    <h4 class="text-center text-white">Blogs</h4>
-    <div class="row pt-5">
-      <div class="col-md-4">
-        <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-          <div class="card-header">Starry-Eyed Python: Decoding Satellite Images for Space Discovery</div>
-              
-                  <div class="card-body">
-                    <div class="float-right text-muted small">Tech Trekker</div>
-                    <p class="card-text p-3">Dive into the depths of space exporation with starry eyed python where coding meets the cosmos.</p>
-                    <a href="https://developergirl3.wordpress.com/2024/01/02/starry-eyed-python-decoding-satellite-images-for-space-discovery/" class="btn btn-outline-light">Read More</a>
-                      <div class="row pt-3 float-right text-muted small"><i>Jan 02,2024</i></div>
                     </div>
-          </div>
-
-      </div>
-      <div class="col-md-4">
-        <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-          <div class="card-header">Beyond Macros: Revolutionize Automation with Python and RPA</div>
-              
-                  <div class="card-body">
-                    <div class="float-right text-muted small">Tech Trekker</div>
-                    <p class="card-text p-3">Empowering Efficiency: Navigating the Realm of Robotic Process Automation with Python. Discover the synergy that transforms tasks into triumphs! 🚀🤖</p>
-                      <a href="https://developergirl3.wordpress.com/2023/12/08/beyond-macros-revolutionize-automation-with-python-and-rpa/" class="btn btn-outline-light">Read More</a>
-                      <div class="row pt-3 float-right text-muted small"><i>Dec 08,2023</i></div>
-                    </div>
-          </div>
-
-      </div>
-      <div class="col-md-4">
-        <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-          <div class="card-header">Python-Powered Intelligence: Unveiling the Secrets of Machine Learning</div>
-              
-                  <div class="card-body">
-                    <div class="float-right text-muted small">Tech Trekker</div>
-                    <p class="card-text p-3">Unlocking the Code: Python-Powered Intelligence Reveals the Enigmatic World of Machine Learning. Join the Exploration! 🌐🐍</p>
-                      <a href="https://developergirl3.wordpress.com/2023/12/05/the-evolution-of-python-web-frameworks-a-deep-dive-into-django-flask-and-fastapi/" class="btn btn-outline-light">Read More</a>
-                      <div class="row pt-3 float-right text-muted small"><i>Dec 07,2023</i></div>
-                    </div>
-          </div>
-
-      </div>
-    </div>
-
-    <div class="row pt-5">
-      <div class="col-md-4">
-        <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-          <div class="card-header">The Evolution of Python Web Frameworks: A Deep Dive into Django, Flask, FastAPI</div>
-              
-                  <div class="card-body">
-                    <div class="float-right text-muted small">Tech Trekker</div>
-                    <p class="card-text p-3">Unraveling the Tapestry of Python Web Frameworks: Navigating the Landscape of Django, Flask, and FastAPI in the Evolution of Web Development.</p>
-                      <a href="https://developergirl3.wordpress.com/2023/12/05/the-evolution-of-python-web-frameworks-a-deep-dive-into-django-flask-and-fastapi/" class="btn btn-outline-light">Read More</a>
-                      <div class="row pt-3 float-right text-muted small"><i>Dec 06,2023</i></div>
-                    </div>
-          </div>
-
-      </div>
-      <div class="col-md-4">
-        <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-          <div class="card-header">Beyond the Cleft: Breaking Barriers</div>
-              
-                  <div class="card-body">
-                    <div class="float-right text-muted small">Galactic Lines</div>
-                    <p class="card-text p-3">Empowering Smiles: Bridging Gaps, Creating Hope, Together, let's raise awareness and support for cleft patients in our Modern world."</p>
-                      <a href="http://incrediblestories.home.blog/2023/12/05/beyond-the-cleft-breaking-barriers/" class="btn btn-outline-light">Read More</a>
-                      <div class="row pt-3 float-right text-muted small"><i>Dec 05,2023</i></div>
-                    </div>
-          </div>
-
-      </div>
-
-      <div class="col-md-4">
-        <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-          <div class="card-header">And its the time to change..</div>
-              
-                  <div class="card-body">
-                    <div class="float-right text-muted small">Galactic Lines</div>
-                    <p class="card-text p-3"> "You are not necessary. The air, earth, water and sky without you are fine."</p>
-                      <a href="http://incrediblestories.home.blog/2020/05/11/this-very-moment/" class="btn btn-outline-light">Read More</a>
-                      <div class="row pt-3 float-right text-muted small"><i>May 11,2020</i></div>
-                    </div>
-          </div>
-    </div>
-    
-    </div>
-
-    <div class="row pt-5">
-
-      
-      <div class="col-md-4">
-        <div class="card text-white bg-dark mb-3" style="max-width: 30rem;">
-          <div class="card-header">This Very Moment..</div>
-            
-                <div class="card-body">
-                  <div class="float-right text-muted small">Galactic Lines</div>
-                  <p class="card-text p-3">"The crime rates against women have only risen to a great extent."</p>
-                    <a href="http://incrediblestories.home.blog/2020/04/19/time-to-change/" class="btn btn-outline-light">Read More</a>
-                    <div class="row pt-3 float-right text-muted small"><i>April 19,2020</i></div>
                   </div>
-        </div>
-      </div>
-
-
-       
-        
-   </div>
-  </div>
-</section>
-
-<!-- Contacts section -->
-<section id="contact-section" class="bg-dark p-5" style="padding-top: 7em; background-blend-mode: multiply; background-image: url(https://www.bhmpics.com/downloads/website-backgrounds-Wallpapers/7.empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-copy-space-studio-room.jpg); max-width: 100%; background-size: cover;">
-
-  <div class="container">
-  <h4 class="text-center text-white">Contact</h4>
-  <span class="section-subtitle text-secondary" style="font-size: small;">Get in touch</span>
-
-        <div class="contact-container container grid">
-          <div>
-            <a href="mailto:shibino.developer@gmail.com">
-              <img src="icons\email.ico" 
-              style="width: 30px;" class= "img-responsive" alt=".."></a>
-                <a
-                  href="mailto:shibino.developer@gmail.com"
-                  target="_blank"
-                  class="contact-subtitle"
-                  >shibino.developer@gmail.com</a
->
-            </div>
-            
-            <div>
-            <a href="https://www.linkedin.com/in/shibinoabraham/">
-              <img src="icons\linkedin.svg" 
-              style="width: 30px;" class= "img-responsive" alt=".."></a>
-                <!-- <h3 class="contact-title">Linkedin</h3> -->
-                <a
-                  class="contact-subtitle"
-                  href="https://www.linkedin.com/in/shibinoabraham/"
-                  target="_blank"
-                  >@shibinoabraham</a>
                 </div>
+                <!-- Home Page Top Part -->
+
+                <!-- Services -->
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="p-50"></div>
+
+                    <div class="block-title">
+                      <h2>What I Do</h2>
+                    </div>
+                  </div>
                 </div>
-              </div>
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="info-list-w-icon">
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-pen"></i>
+                        </div>
+      
+                        <div class="ci-text">
+                          <h4>Technical Content Writing</h4>
+                          <p>Empowering Readers with Expertly Crafted Technical Content, Bridging the Gap Between Complex Concepts and Clear Communication in the Ever-Evolving Tech Landscape.</p>
+                         </div>
+                      </div>
+    
+                    </div>
+                  </div>
+
+                  <div class="col-xs-12 col-sm-6">
+                    <div class="info-list-w-icon">
+
+                      <div class="info-block-w-icon">
+                        <div class="ci-icon">
+                          <i class="linecons linecons-display"></i>
+                        </div>
+     
+                        <div class="ci-text">
+                          <h4>Web Application Development</h4>
+                          <p>Design and develop custom web applications tailored to meet specific client needs.
+                          Utilize Python frameworks such as Django and Flask for robust back-end functionality.</p>
+                        </div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                <!-- /Services -->
+
+                <div class="row">
+                  <div class="col-xs-12 col-sm-12">
+                    <div class="p-20"></div>
+
+                    
+
+                    
+                    
+                  </div>
+                </div>
+
+                
+        <!-- Footer -->
+        <footer class="site-footer clearfix">
+          <div class="footer-social">
+            <ul class="footer-social-links">
+              <li>
+                <a href="https://www.linkedin.com/in/shibinoabraham/" target="_blank">LinkedIn</a>
+              </li>
+
+              <li>
+                <a href="https://github.com/shibino-developer" target="_blank">Github</a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/_shibino_abraham/" target="_blank">Instagram</a>
+              </li>
+            </ul>
+          </div>
               
-</section>
-
-<!-- Footer Section -->
-<footer class="bg-dark p-5" style="padding-top: 7em; background-blend-mode: multiply; background-image: url(https://www.bhmpics.com/downloads/website-backgrounds-Wallpapers/7.empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-copy-space-studio-room.jpg); max-width: 100%; background-size: cover;">
- 
-    <div class="container">
-      <div>
-        <h1 class="footer-title">Shibino Abraham</h1>
-        <span class="footer-subtitle text-secondary" style="font-size: small;">Software developer</span>
-      </div>
-      <ul class="footer-links">
-        <li>
-          <a href="#expertise-section" class="footer-link">Expertise</a>
-        </li>
-        <li>
-          <a href="#projects-section" class="footer-link">Portfolio</a>
-        </li>
-        <li>
-          <a href="#contact-section" class="footer-link">Contact</a>
-        </li>
-      </ul>
-
-      <div class="footer-socials">
-        <a
-          href="https://www.linkedin.com/in/shibinoabraham/"
-          target="_blank"
-          class="footer-social"
-        >
-        <img src="icons\linkedin.svg" 
-        style="width: 30px;" class= " footer-img img-responsive" alt="..">
-        </a>
-        <a
-          href="https://github.com/shibino-developer"
-          target="_blank"
-          target="_blank"
-          class="footer-social"
-        >
-        <img src="icons\github.svg" 
-        style="width: 30px;" class= "footer-img img-responsive" alt="..">
-        </a>
-        <a
-          href="https://www.instagram.com/_shibino_abraham/"
-          target="_blank"
-          class="footer-social"
-        >
-        <img src="icons\instagram.svg" 
-        style="width: 30px;" class= "footer-img img-responsive" alt="..">
-        </a>
-        <a
-          href="http://incrediblestories.home.blog"
-          target="_blank"
-          class="footer-social"
-        >
-        <img src="icons\wordpress.svg" 
-            style="width: 30px;" class= "footer-img img-responsive" alt="..">
-        </a>
+          <div class="footer-copyrights">
+            <p>© 2024 All rights reserved. Shibino.</p>
+          </div>
+        </footer>
+        <!-- /Footer -->
+        
       </div>
     </div>
-    <p class="footer-copy">By shibino-developer</p>
-  
-</footer>
 
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src='../../../../www.google.com/recaptcha/api.js'></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='js/jquery.shuffle.min.js'></script>
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
+    <script src="js/jquery.googlemap.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
