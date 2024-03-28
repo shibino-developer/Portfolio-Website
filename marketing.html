@@ -1,147 +1,265 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online marketing</title>
-    <link rel="icon" type="image/x-icon" href="https://media.licdn.com/dms/image/D5603AQHz04klLikvNA/profile-displayphoto-shrink_200_200/0/1695816939867?e=1703721600&v=beta&t=sgKyMGBu1hYFq1zqZF7o_cIZS5IPIqHXN6zwggwtmnM">
-    
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/cards.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Project / Employee " />
+    <meta name="keywords" content="vcard, resposnive, retina, resume, jquery, css3, bootstrap, portfolio" />
+    <meta name="author" content="Shibino" />
+    <link rel="shortcut icon" href="favicon.ico">
 
-</head>
-<body>
-    <header style="position: fixed; width: 100%; z-index: 1;">
-        <div class="row text-white">
-            <div class="col-md-6 col-9 p-2 pl-5">
-                <h4>Online marketing</h4>
-            </div>
+
+    <link rel="stylesheet" href="css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+
+    <script src="js/modernizr.custom.js"></script>
+  </head>
+
+  <body class="page">
+
+    <div class="lm-animated-bg"></div>
     
-            <div class="col-md-6 my-auto text-white">
-                <nav class="navbar navbar-expand-lg navbar-light">
-                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                  
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                      <ul class="navbar-nav mx-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link text-white" href="index.html"><b>Home</b><span class="sr-only">(current)</span></a>
-                        </li>
-                      </ul> 
-                    </div>
-                  </nav>
-            </div>
-    
-            </header>
-<section class="bg-dark" id="software_engineer-section" style="padding-top: 7em; background-blend-mode: multiply; background-image: url(https://www.bhmpics.com/downloads/website-backgrounds-Wallpapers/7.empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-copy-space-studio-room.jpg); max-width: 100%; background-size: cover;">
-    <div class="container">
-            <div class="row">
-                <div class="certi-company">
-                <a href="https://github.com/shibino-developer/Online-marketing/tree/master" class="link-primary">Read More</a>
-                </div>
-            </div>
+    <!-- Loading animation -->
+    <div class="preloader">
+      <div class="preloader-animation">
+        <div class="preloader-spinner">
         </div>
-    
-    </section>
-<section class="bg-dark p-5"style="padding-top: 7em; background-blend-mode: multiply; background-image: url(https://www.bhmpics.com/downloads/website-backgrounds-Wallpapers/7.empty-dark-blue-studio-room-with-light-and-shadow-abstract-background-copy-space-studio-room.jpg); max-width: 100%; background-size: cover;">
-       
-        <div class="container">
-            <div class="row pt-8">
-                <div class="col-md-12">
-                  <p class="text-white">This dynamic application is designed to elevate the online marketing experience, providing businesses with powerful tools to enhance their digital presence and engage with their audience effectively.
-                    <br><br>
-                    <i>Key Features:</i>
-                    <br>
-                    <b>User-friendly Dashboard</b>:<br> A visually appealing and intuitive dashboard centralizes essential marketing metrics, providing a comprehensive overview of campaigns and performance.
-                    <br>
-                    <b>Content Creation</b>:<br>Enable users to create and customize engaging marketing content, fostering creativity and adaptability in digital campaigns.
-                    <br>
-                    <b>Social Media Integration</b>:<br>Seamlessly connect with popular social media platforms, allowing for easy sharing and cross-promotion of marketing content.
-                    <br>
-                    <b>User Authentication</b>:<br>Prioritize security with a secure user authentication system, ensuring that only authorized personnel can access and modify marketing campaigns.
-                    <br>
-                    <b>Email Marketing Integration</b>:<br>Streamline email marketing campaigns with integrated tools, allowing for efficient communication and engagement with a broader audience.
-                    <br>
-                    <b>Responsive Design</b>:<br>Ensure a consistent and engaging user experience across devices, accommodating users on desktops, tablets, and mobile phones.
-                    <br>
+      </div>
+    </div>
+    <!-- /Loading animation -->
+
+    <!-- Scroll To Top Button -->
+    <div class="lmpixels-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
+    <!-- /Scroll To Top Button -->
+
+    <div class="page-scroll">
+      <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
+
+        <!-- Header -->
+        <header id="site_header" class="header">
+          <div class="header-content clearfix">
+                
+            <!-- Text Logo -->
+            <div class="text-logo">
+              <a href="index.html">
+                <div class="logo-symbol">S</div>
+                <div class="logo-text">Shibino <span>Abraham</span></div>
+              </a>
+            </div>
+            <!-- /Text Logo -->
+
+            <!-- Navigation -->
+            <div class="site-nav mobile-menu-hide">
+              <ul class="leven-classic-menu site-main-menu">
+                <li class="menu-item menu-item-has-children">
+                  <a href="index.html">About Me</a>
+                  <!-- <ul class="sub-menu">
+                    <li class="menu-item">
+                      <a href="index.html">About Me 1</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="index-2.html">About Me 2</a>
+                    </li>
+                  </ul> -->
+                </li>
+
+                <li class="menu-item current-menu-item">
+                  <a href="resume.html">Resume</a>
+                </li>
+
+                <li class="menu-item menu-item-has-children">
+                  <a href="portfolio.html">Portfolio</a>
+                  <!-- <ul class="sub-menu">
+                    <li class="menu-item">
+                      <a href="portfolio-2-columns.html">Portfolio 2 Columns</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="portfolio.html">Portfolio 3 Columns</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="portfolio-4-columns.html">Portfolio 4 Columns</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="portfolio-5-columns.html">Portfolio 5 Columns</a>
+                    </li>
+                  </ul> -->
+                </li>
+                
+                <li class="menu-item menu-item-has-children">
+                  <a href="blog.html">Blog</a>
+                  <!-- <ul class="sub-menu">
+                    <li class="menu-item">
+                      <a href="blog.html">Blog 2 Columns</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="blog-3-columns.html">Blog 3 Columns</a>
+                    </li>
+                  </ul> -->
+                </li>
+
+                <li class="menu-item">
+                  <a href="contact.html">Contact</a>
+                </li>
+              </ul>
+            </div>
+
+            <a class="menu-toggle mobile-visible">
+                <i class="fa fa-bars"></i>
+            </a>
+          </div>
+        </header>
+        <!-- /Header -->
+
+        <div id="main" class="site-main">
+          <div id="main-content" class="single-page-content">
+            <div id="primary" class="content-area">
+
+              <div class="page-title">
+                <h3>Online Marketing Web Application</h3>
+                <!-- <div class="page-subtitle">
+                    <h4>Entry-level Python Developer | Passionate about Python and Web Development</h4>
+                </div> -->
+              </div>
+
+              <div id="content" class="page-content site-content single-post" role="main">
+                <div class="row">
+  
+                  <div class="col-xs-12 col-sm-6 pt-3">
+                    <div class="block-title">
+                      <h5>Project Description</h5>
+                    </div>
+
+                    <div id="timeline_1" class="timeline clearfix">
+                      <div class="timeline-item clearfix">
+                        <!-- <h5 class="item-period ">2021</h5> -->
+                        <!-- <span class="item-company">QIS Academy</span>
+                        <h4 class="item-title">Python Full Stack Web Development</h4> -->
+                        <p>Developed an online marketing application using Python Flask, which facilitates buying and selling products with a user login interface. This dynamic application is designed to elevate the online marketing experience, providing businesses with powerful tools to enhance their digital presence and engage with their audience effectively.</p> </div>
+
+                      <div class="timeline-item clearfix">
+                        <!-- <h5 class="item-period ">2020</h5> -->
+                        <!-- <span class="item-company">A P J Abdul Kalam Technological University</span> -->
+                        <h5 class="item-title">Role and Contributions</h5>
+                        <span> <ul>
+                          <li>Backend Development: Designed and developed the backend logic and functionalities of the web application using Python and Flask, including user authentication, product management, and transaction processing.</li>
+                          <li>Database Management: Integrated SQLAlchemy to manage database operations, including data modeling, querying, and transactions.</li>
+                          <li>User Interface Design: Designed and implemented user interfaces for the web application, ensuring a seamless and intuitive user experience.</li>
+                          <li>Testing and Debugging: Conducted thorough testing and debugging to identify and resolve issues, ensuring the reliability and stability of the web application.</li>
+                        </ul></span></div>
+
+                      <div class="timeline-item clearfix">
+                        <!-- <h5 class="item-period ">2007</h5> -->
+                        <!-- <span class="item-company">University of Studies</span> -->
+                        <h5 class="item-title">Outcomes and Results</h5>
+                        <span> <ul>
+                          <li>Successful Development: Successfully developed and deployed the Online Marketing Web Application, meeting the requirements and objectives of providing businesses with powerful online marketing tools.</li>
+                          <li>Enhanced Marketing Experience: The web application offers businesses powerful tools to manage their digital presence, including product listings, user authentication, and transaction processing, enhancing their online marketing experience.</li>
+                          <li>Improved Engagement: By providing a user-friendly interface and seamless user experience, the web application facilitates effective engagement with customers, leading to increased sales and customer satisfaction.</li>
+                        </ul></span></div>
+                        <div class="home-buttons">
+                            <a href="https://github.com/shibino-developer/Software-Development" target="_blank" class="btn btn-primary">GitHub: Dive into My Code</a>
+                            <!-- <a href="#" target="_self" class="btn btn-secondary">Contact</a> -->
+                          </div> 
+
+                    </div>
+                  </div>
+
                     
-                    This project not only simplifies the online marketing process but also empowers businesses to create impactful and data-driven campaigns. By leveraging the versatility of Python Flask, I've developed a solution that aligns with the dynamic nature of digital marketing, fostering innovation and effectiveness in the online space.
-                </p>
+                  <div class="col-xs-12 col-sm-6 pt-3">
+                    <div class="block-title">
+                      <h5>Technologies Used</h5>
+                    </div>
+
+                    <div id="timeline_1" class="timeline clearfix">
+                      <div class="timeline-item clearfix">
+                        <!-- <h5 class="item-period ">2021</h5> -->
+                        <!-- <span class="item-company">QIS Academy</span>
+                        <h4 class="item-title">Python Full Stack Web Development</h4> -->
+                        <span> <ul>
+                          <li>Python: Utilized Python as the primary programming language for developing the backend logic and functionalities of the web application.</li>
+                          <li>Flask: Employed the Flask web framework to build the web application's backend, handle HTTP requests, and manage routing.</li>
+                          <li>SQLAlchemy: Integrated SQLAlchemy as the ORM (Object-Relational Mapping) library for interfacing with the database and managing data persistence.</li>
+                            </ul></span>
+                      </div>
+
+                      <div class="timeline-item clearfix">
+                        <!-- <h5 class="item-period ">2020</h5> -->
+                        <!-- <span class="item-company">A P J Abdul Kalam Technological University</span> -->
+                        <h5 class="item-title">Challenges Faced and Solutions</h5>
+                        <span> <ul>
+                          <li>Challenge: Designing a scalable and efficient database schema to handle product data and user information.<br><i>Solution: Utilized SQLAlchemy to design a robust database schema, optimizing table relationships and query performance to ensure scalability and efficiency.</i></li><br>
+                          <li>Challenge: Implementing secure user authentication and authorization mechanisms.<br><i>Solution: Implemented secure authentication mechanisms using Flask-Login and session management techniques, enforcing access controls to protect user data and sensitive information.</i></li>
+                          <!-- <li>Testing and Debugging: Conducted thorough testing and debugging to identify and resolve issues, ensuring the reliability and stability of the application.</li>
+                          <li>Deployment: Assisted in deploying the application to production environments, configuring servers, and ensuring proper functionality in a live environment.</li> -->
+                        </ul></span></div>
+
+                      <div class="timeline-item clearfix">
+                        <!-- <h5 class="item-period ">2007</h5> -->
+                        <!-- <span class="item-company">University of Studies</span> -->
+                        <!-- <h4 class="item-title">Visuals and Media</h4> -->
+                        <!-- <p>Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis ante.</p> -->
+                        <div class="home-buttons">
+                          <a href="https://docs.google.com/presentation/d/1BGbvpQV4mUsHXArbmanmmGW1ynxnn5DHOmwuI1ko-cA/edit?usp=drive_link" target="_blank" class="btn btn-primary">Discover More</a>
+                          <!-- <a href="#" target="_self" class="btn btn-secondary">Contact</a> -->
+                        </div> 
+                        
+                      <!-- </div> -->
+
+                    </div>
+                  </div>
+
+                </div>
+
+                    </div> 
+                   </div> 
                 </div>
               </div>
-            <div class="row">
-                <div class="col-md-4 p-5">
-                    <div class="card text-center bg-dark p-3">
-                        <img src="1.jpg" class= "card-img-top" alt="..">
-                            <div class="card-body">
-                                  <h5 class="card-title text-white">Login</h5>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 p-5">
-                        <div class="card text-center bg-dark p-3">
-                            <img src="2.png" class= "card-img-top" alt="..">
-                                <!-- <div class="card-body">
-                                      <h5 class="card-title">Dashboard</h5>
-                                    </div> -->
-                            </div>
-                        </div>
-                        <div class="col-md-4 p-5">
-                            <div class="card text-center bg-dark p-3">
-                                <img src="3.jpg" class= "card-img-top" alt="..">
-                                    <!-- <div class="card-body">
-                                          <h5 class="card-title">User</h5>
-                                        </div> -->
-                                </div>
-                            </div>
-
             </div>
-            <div class="row">
-                <div class="col-md-4 p-5">
-                    <div class="card text-center bg-dark p-3">
-                        <img src="4.jpg" class= "card-img-top" alt="..">
-                            <div class="card-body">
-                                  <h5 class="card-title text-white">Market Page</h5>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 p-5">
-                        <div class="card text-center bg-dark p-3">
-                            <img src="5.jpg" class= "card-img-top" alt="..">
-                                <!-- <div class="card-body">
-                                      <h5 class="card-title">Stock</h5>
-                                    </div> -->
-                            </div>
-                        </div>
-                        <div class="col-md-4 p-5">
-                            <div class="card text-center bg-dark p-3">
-                                <img src="6.jpg" class= "card-img-top" alt="..">
-                                    <!-- <div class="card-body">
-                                          <h5 class="card-title">Sales</h5>
-                                        </div> -->
-                                </div>
-                            </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 p-5">
-                    <div class="card text-center bg-dark p-3">
-                        <img src="7.jpg" class= "card-img-top" alt="..">
-                            <!-- <div class="card-body">
-                                  <h5 class="card-title">Billing</h5>
-                                </div> -->
-                        </div>
-                    </div>
-                      </div>
-    </section>
+          </div>
+        </div>
 
+        <footer class="site-footer clearfix">
+          <div class="footer-social">
+            <ul class="footer-social-links">
+              <li>
+                <a href="https://www.linkedin.com/in/shibinoabraham/" target="_blank">LinkedIn</a>
+              </li>
 
+              <li>
+                <a href="https://github.com/shibino-developer" target="_blank">Github</a>
+              </li>
 
+              <li>
+                <a href="https://www.instagram.com/_shibino_abraham/" target="_blank">Instagram</a>
+              </li>
+            </ul>
+          </div>
+              
+          <div class="footer-copyrights">
+            <p>© 2024 All rights reserved. Shibino.</p>
+          </div>
+        </footer>
+        
+      </div>
+    </div>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src='../../../../www.google.com/recaptcha/api.js'></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src='js/jquery.shuffle.min.js'></script>
+    <script src='js/masonry.pkgd.min.js'></script>
+    <script src='js/owl.carousel.min.js'></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrDf32aQTCVENBhFJbMBKOUTiUAABtC2o"></script>
+    <script src="js/jquery.googlemap.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/main.js"></script>
+   
 </body>
 </html>
