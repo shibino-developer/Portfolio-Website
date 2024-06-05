@@ -1010,7 +1010,7 @@ td {
 
 /* Apply animations to elements */
 .animated {
-    animation-duration: 2s;
+    animation-duration: 0.8s;
     animation-fill-mode: both;
 }
 
