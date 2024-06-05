@@ -20,44 +20,8 @@
 
 
     <script src="js/modernizr.custom.js"></script>
-    <style>
-      /* Define animations */
-      @keyframes slideInLeft {
-          from {
-              transform: translateX(-100%);
-              opacity: 0;
-          }
-          to {
-              transform: translateX(0);
-              opacity: 1;
-          }
-      }
-
-      @keyframes slideInRight {
-          from {
-              transform: translateX(-100%);
-              opacity: 0;
-          }
-          to {
-              transform: translateX(0%);
-              opacity: 1;
-          }
-      }
-
-      /* Apply animations to elements */
-      .animated {
-          animation-duration: 2s;
-          animation-fill-mode: both;
-      }
-
-      .slideInLeft {
-          animation-name: slideInLeft;
-      }
-
-      .slideInRight {
-          animation-name: slideInRight;
-      }
-  </style>
+    
+ 
 
   </head>
 
@@ -78,12 +42,12 @@
     <div class="lmpixels-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
     <!-- /Scroll To Top Button -->
 
-    <div class="page-scroll animated slideInLeft">
-      <div id="page_container" class="page-container bg-move-effect animated slideInRight" data-animation="transition-flip-in-right">
+    <div class="page-scroll">
+      <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
 
         <!-- Header -->
-        <header id="site_header" class="header animated slideInDown">
-          <div class="header-content clearfix">
+        <header id="site_header" class="header">
+          <div class="header-content clearfix animated slideInLeft">
                 
             <!-- Text Logo -->
             <div class="text-logo">
@@ -174,7 +138,7 @@
               <div id="content" class="page-content site-content single-post" role="main">
                 <div class="row">
                   <div class=" col-xs-12 col-sm-12">
-                    <div class="home-content">
+                    <div class="home-content animated slideInRight">
                       <div class="row flex-v-align">
                         
                         <div class="col-sm-12 col-md-5 col-lg-5">

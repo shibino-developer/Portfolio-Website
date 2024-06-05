@@ -986,7 +986,41 @@ td {
     -webkit-animation-name: puffIn;
     animation-name: puffIn
 }
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 
+@keyframes slideInRight {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0%);
+        opacity: 1;
+    }
+}
+
+/* Apply animations to elements */
+.animated {
+    animation-duration: 2s;
+    animation-fill-mode: both;
+}
+
+.slideInLeft {
+    animation-name: slideInLeft;
+}
+
+.slideInRight {
+    animation-name: slideInRight;
+}
 @-webkit-keyframes puffIn {
     0% {
         opacity: 0;
