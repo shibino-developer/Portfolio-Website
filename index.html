@@ -16,8 +16,49 @@
     <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
 
     <script src="js/modernizr.custom.js"></script>
+    <style>
+      /* Define animations */
+      @keyframes slideInLeft {
+          from {
+              transform: translateX(-100%);
+              opacity: 0;
+          }
+          to {
+              transform: translateX(0);
+              opacity: 1;
+          }
+      }
+
+      @keyframes slideInRight {
+          from {
+              transform: translateX(-100%);
+              opacity: 0;
+          }
+          to {
+              transform: translateX(0%);
+              opacity: 1;
+          }
+      }
+
+      /* Apply animations to elements */
+      .animated {
+          animation-duration: 2s;
+          animation-fill-mode: both;
+      }
+
+      .slideInLeft {
+          animation-name: slideInLeft;
+      }
+
+      .slideInRight {
+          animation-name: slideInRight;
+      }
+  </style>
+
   </head>
 
   <body class="page">
@@ -37,11 +78,11 @@
     <div class="lmpixels-scroll-to-top"><i class="lnr lnr-chevron-up"></i></div>
     <!-- /Scroll To Top Button -->
 
-    <div class="page-scroll">
-      <div id="page_container" class="page-container bg-move-effect" data-animation="transition-flip-in-right">
+    <div class="page-scroll animated slideInLeft">
+      <div id="page_container" class="page-container bg-move-effect animated slideInRight" data-animation="transition-flip-in-right">
 
         <!-- Header -->
-        <header id="site_header" class="header">
+        <header id="site_header" class="header animated slideInDown">
           <div class="header-content clearfix">
                 
             <!-- Text Logo -->
@@ -251,7 +292,7 @@
 
                 
         <!-- Footer -->
-        <footer class="site-footer clearfix">
+        <footer class="site-footer clearfix animated slideInUp">
           <div class="footer-social">
             <ul class="footer-social-links">
               <li>
