@@ -997,9 +997,20 @@ td {
     }
 }
 
-@keyframes slideInRight {
+@keyframes slideInLeft {
     from {
         transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
         opacity: 0;
     }
     to {
@@ -1012,6 +1023,7 @@ td {
 .animated {
     animation-duration: 0.8s;
     animation-fill-mode: both;
+    transition-timing-function: ease-out; /* Apply ease-out timing function */
 }
 
 .slideInLeft {
@@ -1021,6 +1033,7 @@ td {
 .slideInRight {
     animation-name: slideInRight;
 }
+
 @-webkit-keyframes puffIn {
     0% {
         opacity: 0;
